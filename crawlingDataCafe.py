@@ -44,7 +44,7 @@ driver.implicitly_wait(5)
 
 insta_url = 'https://www.instagram.com/'
 driver.get(url=insta_url)
-time.sleep(2)
+time.sleep(5)
 driver.find_element(By.XPATH, '//*[@id="loginForm"]/div/div[1]/div/label/input').send_keys(id)
 driver.find_element(By.XPATH, '//*[@id="loginForm"]/div/div[2]/div/label/input').send_keys(password)
 time.sleep(1)
